@@ -7,7 +7,7 @@
     "deploy": "graph deploy --node https://api.thegraph.com/deploy/ decimalteam/decimal-testnet-test-sub",
     "create-local": "graph create --node https://testnet-thegraph.decimalchain.com/json-rpc/ decimalteam/decimal-testnet-test-sub",
     "remove-local": "graph remove --node https://testnet-thegraph.decimalchain.com/json-rpc/ decimalteam/decimal-testnet-test-sub",
-    "deploy-local": "graph deploy --node https://testnet-thegraph.decimalchain.com/json-rpc/ --ipfs https://testnet-thegraph.decimalchain.com/ipfs/ decimalteam/decimal-testnet-test-sub",
+    "deploy-local": "graph deploy --node https://testnet-thegraph.decimalchain.com/json-rpc/ --ipfs http://192.168.74.184:5001 decimalteam/decimal-testnet-test-sub",
     "test": "graph test"
   },
   "dependencies": {
